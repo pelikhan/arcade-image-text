@@ -1,6 +1,26 @@
 
 > Open this page at [https://pelikhan.github.io/arcade-image-text/](https://pelikhan.github.io/arcade-image-text/)
 
+Adds print blocks in the ``images`` category to render text on images.
+
+```blocks
+let i = image.create(80, 40)
+images.print(
+i,
+"hello",
+0,
+0,
+10
+)
+images.printCenter(
+i,
+"world",
+20,
+6
+)
+let mySprite = sprites.create(i, SpriteKind.Player)
+```
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.

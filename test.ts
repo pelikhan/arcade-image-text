@@ -1,1 +1,15 @@
-// tests go here; this will not be compiled when this package is used as an extension.
+let i = image.create(80, 40)
+images.print(
+i,
+"hello",
+0,
+0,
+10
+)
+images.printCenter(
+i,
+"world",
+20,
+6
+)
+let mySprite = sprites.create(i, SpriteKind.Player)
