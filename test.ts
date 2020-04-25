@@ -13,3 +13,6 @@ i,
 6
 )
 let mySprite = sprites.create(i, SpriteKind.Player)
+mySprite.setFlag(SpriteFlag.BounceOnWall, true)
+mySprite.vx = Math.randomRange(-200,200)
+mySprite.vy = Math.randomRange(-200,200)

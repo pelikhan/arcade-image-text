@@ -6,6 +6,7 @@ namespace images {
     //% i.shadow=variables_get
     //% color.shadow=colorindexpicker
     //% group="Text"
+    //% inlineInputMode=inline
     export function print(i: Image, text: string, x: number, y: number, color: number) {
         i.print(text, x, y, color)
     }
@@ -17,6 +18,7 @@ namespace images {
     //% i.shadow=variables_get
     //% color.shadow=colorindexpicker
     //% group="Text"
+    //% inlineInputMode=inline
     export function printCenter(i: Image, text: string, y: number, color: number) {
         i.printCenter(text, y, color)
     }

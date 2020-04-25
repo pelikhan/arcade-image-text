@@ -3,22 +3,22 @@
 
 Adds print blocks in the ``images`` category to render text on images.
 
+### print
+
+Prints text at a given
+
 ```blocks
 let i = image.create(80, 40)
-images.print(
-i,
-"hello",
-0,
-0,
-10
-)
-images.printCenter(
-i,
-"world",
-20,
-6
-)
-let mySprite = sprites.create(i, SpriteKind.Player)
+images.print(i,"hello",0,0,10)
+```
+
+### printCenter
+
+Prints text centered on the image at a given y.
+
+```blocks
+let i = image.create(80, 40)
+images.printCenter(i,"hello",20,6)
 ```
 
 ## Use as Extension
